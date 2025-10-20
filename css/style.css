@@ -164,8 +164,8 @@ nav ul {
     padding: 0;
 }
 
-nav a {
-    text-decoration: none;
+    nav a {
+        text-decoration: none;
     color: rgb(246, 70, 152);
     font-weight: 500;
     transition: color 0.3 ease;
@@ -186,7 +186,7 @@ nav a {
     box-shadow: 0 8px 25px rgba(255, 105, 180, 0.4);
 }
 
-.fun-list li::before {
+    .fun-list li::before {
     content: '✨';
     margin-right: 10px;
 }
@@ -336,8 +336,8 @@ nav a:hover {
         margin: 20px;
     }
 
-.hero h1 {
-    font-size: 3rem;
+    .hero h1 {
+        font-size: 3rem;
     margin-bottom: 20px;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
@@ -374,6 +374,6 @@ nav a:hover {
 .btn:hover {
     background-color: #943b73;
 }
-    #about p {
+#about p {
         font-size: 1em;
-    }
+}
