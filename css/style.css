@@ -1,11 +1,10 @@
 body {
-    background-image:
-    linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
-        url('https://avatanplus.com/files/resources/original/58dbe4791513f15b1af478fe.jpg');
+    background-image: url('https://avatanplus.com/files/resources/original/58dbe4791513f15b1af478fe.jpg');
     background-size:cover;
     background-position:centre;
     background-repeat:no-repeat;
     backround-attachment:fixed;
+    min-height: 100vh;
 }
 header {
     position: fixed;
