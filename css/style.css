@@ -1,3 +1,12 @@
+body.with-gradient {
+    background-image:
+    linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
+        url('https://i.pinimg.com/736x/c6/60/95/c6609508b9645de78a21cc98e2e8ad4f.jpg');
+    background-size:cover;
+    background-position:centre;
+    background-repeat:no-repeat;
+    backround-attachment:fixed;
+}
 header {
     position: fixed;
     top: 0;
