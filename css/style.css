@@ -164,11 +164,10 @@ nav ul {
     padding: 0;
 }
 
-    nav a {
-        text-decoration: none;
+nav a {
+    text-decoration: none;
     color: rgb(246, 70, 152);
     font-weight: 500;
-    transition: color 0.3 ease;
 }
 
 .fun-list li {
@@ -301,7 +300,6 @@ nav a:hover {
 
 .gallery-img {
     width: 100%;
-    height: 100%;
     background-image: url('https://i.pinimg.com/736x/5e/27/40/5e27402de46bf13d80ee3517a50f4559.jpg');
     background-size: cover;
     background-position: center;
@@ -327,7 +325,7 @@ nav a:hover {
 .hero-content {
     position: relative;
     z-index: 1;
-    max-width: 800;
+    max-width: 800px;
 }
 
 @media (max-width: 768px) {
@@ -351,9 +349,9 @@ nav a:hover {
     line-height: 1.5;
     }
 
-    .gallery-container {
-        grid-template-columns: 1fr;
-    }
+.gallery-container {
+    grid-template-columns: 1fr;
+}
 
 
 .btn {
@@ -366,14 +364,17 @@ nav a:hover {
     font-weight: bold;
     transition: background-color 0.3s;
 }
+
 @media (max-width: 480px) {
     #about h2, .gallery-title {
         font-size: 1.5em;
     }
+}
 
 .btn:hover {
     background-color: #943b73;
 }
+
 #about p {
-        font-size: 1em;
-}
+    font-size: 1em;
+}}}
