@@ -1,4 +1,68 @@
-<button id="contact-btn" onclick="openContactModal()">Контакти</button>
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Няшкі-вкусняшкі</title>
+    <link rel="icon" href="https://i.pinimg.com/564x/8a/ce/c1/8acec1b36ff78821471e69646048e62a.jpg">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header id="header">
+        <a href="#">
+            <img src="https://i.pinimg.com/564x/8a/ce/c1/8acec1b36ff78821471e69646048e62a.jpg" alt="Логотип сайту">
+        </a>
+
+        <nav>
+            <ul>
+                <li><a href="#home">Головна</a></li>
+                <li><a href="#about">Про нас</a></li>
+                <li><a href="#project">Проєкти</a></li>
+                <li><a href="#contact">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section id="about" class="fade-in">
+    <div class="about-content slide-up">
+        <h2>Про нас: Ми – Магістри Макетів!</h2>
+        <p>Ми створюємо веб-сайти, які не просто працюють, а <strong>стрибають як зайці на каві</strong>! Наша команда – це армія кодерів, що перетворюють ідеї на цифрові феєрверки.</p>
+        <p>Додатковий текст: Уяви, що твій сайт – це супергерой: швидкий, адаптивний і готовий врятувати світ від нудьги. Ми додаємо <em>магії</em> до кожного пікселя!</p>
+        <ul class="fun-list">
+            <li>Висока якість – як шоколадка без горіхів, але з сюрпризом!</li>
+            <li>Швидка розробка – ми летимо швидше за світло (майже).</li>
+            <li>Підтримка клієнтів – завжди на зв'язку, як супергеройський маячок.</li>
+        </ul>
+        <div class="icon-overlay spin"></div>
+        <div class="extra-block glow">
+            <p>Це додатковий блок: Наші досягнення – це калейдоскоп перемог! Від простих сторінок до складних лабіринтів коду.</p>
+        </div>
+    </div>
+</section>
+<section id="project" id="gallery" class="fade-in">
+    <h2 class="gallery-title bounce-sticky">Галерея: Калейдоскоп Кодингу!</h2>
+    <div class="gallery-container">
+        <div class="gallery-item hover-zoom">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOGF0oAmRBafehlD6dstufDU-7n_NI2kxM4g&s" alt="ракета" class="gallery-img img1">
+            <h3 class="img-title">Проект 1: Ракета до Зірок</h3>
+        </div>
+        <div class="gallery-item hover-zoom">
+            <img src="https://optimize-il.com/wp-content/uploads/2024/07/sho-take-piksel.jpg" alt="танець піксклів" class="gallery-img img2">
+            <h3 class="img-title">Проект 2: Танець Пікселів</h3>
+        </div>
+        <div class="gallery-item hover-zoom">
+            <img src="https://piromax.com.ua/wp-content/uploads/2020/08/Interesting-facts-about-fireworks.jpg" alt="феєрвейк" class="gallery-img img3">
+            <h3 class="img-title">Проект 3: Феєрверк Ідей</h3>
+        </div>
+        <div class="gallery-item hover-zoom">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Labirinto_003.svg/1200px-Labirinto_003.svg.png" alt="лабіринт" class="gallery-img img4">
+            <h3 class="img-title">Проект 4: Лабіринт Кодингу</h3>
+        </div>
+    </div>
+</section>
+
+<button   id="contact-btn" id="contact" onclick="openContactModal()">Контакти</button>
 
     <div id="contact-modal" class="modal">
         <div class="modal-content">
@@ -49,5 +113,8 @@
             closeContactModal();
         }
     }
+
 </script>
+</body>
+</html>
 
