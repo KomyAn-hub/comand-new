@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="uk">
 <head>
@@ -9,3 +10,57 @@
     
 </body>
 </html>
+=======
+<button id="contact-btn" onclick="openContactModal()">Контакти</button>
+
+    <div id="contact-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeContactModal()">&times;</span>
+            <h2>Наші контакти</h2>
+            <div class="contact-info">
+                <p><strong>Телефон:</strong> <a href="tel:+380671234567" class="contact-link">+380 (67) 123-45-67</a></p>
+                <p><strong>Email:</strong> <a href="mailto:info@example.com" class="contact-link">info@example.com</a></p>
+                <p><strong>Адреса:</strong> <a href="https://maps.google.com/?q=Lviv,Ukraine" target="_blank" class="contact-link">м. Львів, вул. Прикладна, 1</a></p>
+                <div class="social-links">
+                    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">📘 Facebook</a>
+                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">📷 Instagram</a>
+                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">💼 LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<footer id="footer">
+    <div class="footer-content">
+        <p>&copy; 2024 Назва компанії. Всі права захищені.</p>
+        <div class="footer-links">
+                <a href="#" onclick="return false;">Політика конфіденційності</a>
+                <a href="#" onclick="return false;">Умови використання</a>
+                <a href="#" onclick="return false;">Карта сайту</a>
+        </div>
+        <p class="developer-info">Розроблено студентами групи няшкі</p>
+    </div>
+</footer>
+
+<script>
+    
+    function openContactModal() {
+        document.getElementById('contact-modal').style.display = 'block';
+        document.body.style.overflow = 'hidden'; 
+    }
+
+    
+    function closeContactModal() {
+        document.getElementById('contact-modal').style.display = 'none';
+        document.body.style.overflow = 'auto'; 
+    }
+
+    window.onclick = function(event) {
+        const modal = document.getElementById('contact-modal');
+        if (event.target === modal) {
+            closeContactModal();
+        }
+    }
+</script>
+>>>>>>> 577b1db (contact and footer)
